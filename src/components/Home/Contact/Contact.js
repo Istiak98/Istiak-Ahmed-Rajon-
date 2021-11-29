@@ -23,7 +23,7 @@ const Contact = () => {
   }
   return (
     <div class="container overflow-hidden">
-      <h1>CONTACT ME</h1>
+      <h1><span className='rajon'>CONTACT</span> ME</h1>
 
       <div class="row gx-5" id="contact">
         <div class="col ">

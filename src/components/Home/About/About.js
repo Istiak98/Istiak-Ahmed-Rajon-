@@ -1,6 +1,7 @@
 import React from "react";
 import ABOUT from "../../../images/about2.jpg";
 import "./About.css";
+import TypeWriter from 'typewriter-effect' 
 const About = () => {
   return (
     <div className="" id="about">
@@ -15,7 +16,18 @@ const About = () => {
           </div>
           <div class="col">
             <div class="p-3">
-              <h1 className="text-start">I'm Istiak Ahmed Rajon</h1>
+              {/* <h1 className="text-start">I'm Istiak Ahmed Rajon</h1> */}
+              <h1 >I'm <span className="typewriter rajon">
+                     <TypeWriter 
+                     options={{
+                            strings: ['Istiak Ahmed Rajon','Istiak Ahmed Rajon', 'Istiak Ahmed Rajon'],
+                            autoStart: true,
+                            delay: 60,
+                            loop: true,
+                            
+                        }}/>
+                        </span>
+                  </h1>
               <h5 className="text-start">Junior Mern Stack Web Developer</h5>
               <p className="text-start">
                 I design and develop services for customers specializing

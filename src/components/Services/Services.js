@@ -26,12 +26,12 @@ const Services = () => {
             <div class="row" style={{"overflow-x": "hidden","overflow-y": "hidden"}}>
               <div class="col-xs-12 col-sm-4">
                 <div class="card" data-aos="fade-right">
-                  <a class="img-card" href="https://ahmed-drone.web.app/">
+                  <a class="img-card" href="/">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgNWa_4D7bVpESc6LYXCNEDO1vUHkc75xsIrphtOD5RxZWw3irb9Vdv2XMA1WZdYGDZo8&usqp=CAU" />
                   </a>
                   <div class="card-content">
                     <h4 class="card-title">
-                      <a href="https://ahmed-drone.web.app/">
+                      <a href="/">
                         {" "}
                         Website Development
                       </a>
@@ -53,12 +53,12 @@ const Services = () => {
               </div>
               <div class="col-xs-12 col-sm-4">
                 <div class="card" data-aos="fade-left">
-                  <a class="img-card" href="https://ahmed-drone.web.app/">
+                  <a class="img-card" href="/">
                     <img src="https://3.bp.blogspot.com/-bAsTyYC8U80/VtLZRKN6OlI/AAAAAAAABjY/kAoljiMALkQ/s400/material%2Bnavbar.jpg" />
                   </a>
                   <div class="card-content">
                     <h4 class="card-title">
-                      <a href="https://ahmed-drone.web.app/">
+                      <a href="/">
                         {" "}
                         Material Design Responsive
                       </a>
@@ -79,12 +79,12 @@ const Services = () => {
               </div>
               <div class="col-xs-12 col-sm-4">
                 <div class="card" data-aos="fade-right">
-                  <a class="img-card" href="https://ahmed-drone.web.app/">
+                  <a class="img-card" href="/">
                     <img src="https://i.ytimg.com/vi/_2LLXnUdUIc/maxresdefault.jpg" />
                   </a>
                   <div class="card-content">
                     <h4 class="card-title">
-                      <a href="https://ahmed-drone.web.app/">Graphics Design</a>
+                      <a href="/">Graphics Design</a>
                     </h4>
                     <p class="">
                       tutorials button hover animation, although very much a
