@@ -1,0 +1,37 @@
+/* .bg-color{
+    background-color: #1e2326;
+} */
+.txt-h1{
+    color: white;
+}
+.btn2 {
+    background-color:white;
+    border: 1px solid #1e2326;
+    color: #1e2326;
+    padding: 8px 12px;
+    margin-left: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .btn2:hover {
+    background-color:#1e2326;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    margin-left: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .block {
+    display: block;
+    width: 100%;
+    /* border: none; */
+    /* background-color: #04AA6D; */
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .btna{
+    text-decoration: none;
+  }
