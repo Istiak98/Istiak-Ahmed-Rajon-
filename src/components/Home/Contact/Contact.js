@@ -1,17 +1,42 @@
 import React from "react";
-import emailjs from 'emailjs-com'
+import emailjs from "emailjs-com";
 const Contact = () => {
-    
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_6tgsb6p",
+        "template_j40ng2a",
+        e.target,
+        "user_DZLPrBovrdUfCVpESfE3S"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  }
   return (
     <div class="container overflow-hidden">
       <h1>CONTACT ME</h1>
 
-      <div class="row gx-5" id='contact'>
+      <div class="row gx-5" id="contact">
         <div class="col ">
           <div class="p-3">
             <div class="row">
               <div class="col-lg-12 col-lg-offset-2 ">
-                <form id="contact-form" method="post" action="" role="form" onSubmit={sendEmail}>
+                <form
+                  id="contact-form"
+                  method="post"
+                  action=""
+                  role="form"
+                  onSubmit={sendEmail}
+                >
                   <div class="messages"></div>
 
                   <div class="controls">
