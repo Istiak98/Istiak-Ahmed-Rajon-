@@ -1,16 +1,18 @@
 import React from "react";
-import './Expirence.css'
+import "./Expirence.css";
 const Expirence = () => {
   return (
-    <div className='' >
-      <h1 className=''>MY EXPIRENCE</h1>
+    <div className="">
+      <h1 className="">MY EXPIRENCE</h1>
       {/* <p className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p> */}
-      <div class="container px-4" >
-        <div class="row gx-5" id='expirence'>
+      <div class="container px-4">
+        <div class="row gx-5" id="expirence">
           <div class="col">
             <div class="p-3 ">
               <h3 className="text-start">Education</h3>
-              <h4 className='blue-txt'>BSc in Computer Science and Engineering</h4>
+              <h4 className="blue-txt">
+                BSc in Computer Science and Engineering
+              </h4>
               <p>Aprit_2018 - Prestent</p>
               <h5>International Islamic University Chittagong</h5>
             </div>
@@ -19,7 +21,7 @@ const Expirence = () => {
             <div class="p-3 ">
               {" "}
               <h3 className="text-start">Expirence</h3>
-              <h4 className='blue-txt'>Associate of Visual and Graphics</h4>
+              <h4 className="blue-txt">Associate of Visual and Graphics</h4>
               <p>2019 - Prestent</p>
               <h5>Opportunities For Kids - OFK</h5>
             </div>
@@ -63,6 +65,17 @@ const Expirence = () => {
                   aria-valuemax="100"
                 ></div>
               </div>
+              <h6 className="text-start">Tailwind</h6>
+              <div class="progress" style={{ height: "4px" }}>
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style={{ width: "55%" }}
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
             </div>
           </div>
           <div class="col">
@@ -95,6 +108,17 @@ const Expirence = () => {
                   class="progress-bar"
                   role="progressbar"
                   style={{ width: "74%" }}
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <h6 className="text-start">Next Js</h6>
+              <div class="progress" style={{ height: "4px" }}>
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style={{ width: "55%" }}
                   aria-valuenow="25"
                   aria-valuemin="0"
                   aria-valuemax="100"

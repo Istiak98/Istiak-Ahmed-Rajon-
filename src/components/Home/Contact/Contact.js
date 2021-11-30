@@ -134,7 +134,7 @@ const Contact = () => {
                       <div class="col-md-12 mt-2">
                         <input
                           type="submit"
-                          class="btn btn-success btn-send"
+                          class="btn btn-dark btn-send"
                           value="Send message"
                         />
                       </div>

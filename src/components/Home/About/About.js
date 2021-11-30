@@ -1,7 +1,7 @@
 import React from "react";
 import ABOUT from "../../../images/about2.jpg";
 import "./About.css";
-import TypeWriter from 'typewriter-effect' 
+import TypeWriter from "typewriter-effect";
 const About = () => {
   return (
     <div className="" id="about">
@@ -17,17 +17,23 @@ const About = () => {
           <div class="col">
             <div class="p-3">
               {/* <h1 className="text-start">I'm Istiak Ahmed Rajon</h1> */}
-              <h1 >I'm <span className="typewriter rajon">
-                     <TypeWriter 
-                     options={{
-                            strings: ['Istiak Ahmed Rajon','Istiak Ahmed Rajon', 'Istiak Ahmed Rajon'],
-                            autoStart: true,
-                            delay: 60,
-                            loop: true,
-                            
-                        }}/>
-                        </span>
-                  </h1>
+              <h1>
+                I'm{" "}
+                <span className="typewriter rajon">
+                  <TypeWriter
+                    options={{
+                      strings: [
+                        "Istiak Ahmed Rajon",
+                        "Istiak Ahmed Rajon",
+                        "Istiak Ahmed Rajon",
+                      ],
+                      autoStart: true,
+                      delay: 60,
+                      loop: true,
+                    }}
+                  />
+                </span>
+              </h1>
               <h5 className="text-start">Junior Mern Stack Web Developer</h5>
               <p className="text-start">
                 I design and develop services for customers specializing
@@ -66,7 +72,7 @@ const About = () => {
               >
                 {" "}
                 <button class="btn2">
-                  <i class="fab fa-facebook-f"></i>
+                  <i className="fab fa-facebook-f">Facebook</i>
                 </button>
               </a>
               <a
@@ -75,13 +81,13 @@ const About = () => {
               >
                 {" "}
                 <button class="btn2">
-                  <i class=" fab fa-linkedin-in"></i>
+                  <i class=" fab fa-linkedin-in"> LinkedIn</i>
                 </button>
               </a>
               <a className="btna" href="https://github.com/Istiak98">
                 {" "}
                 <button class="btn2">
-                  <i class=" fab fa-github"></i>
+                  <i class=" fab fa-github"> Github</i>
                 </button>
               </a>
             </div>

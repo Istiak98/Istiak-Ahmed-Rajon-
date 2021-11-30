@@ -26,45 +26,61 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">
+                {/* <a class="nav-link active" aria-current="page" href="#home">
                   Home
-                </a>
-                {/* <Nav.Link as={HashLink} to="/home#home">
-                Home
-              </Nav.Link> */}
+                </a> */}
+                <Nav.Link
+                  class="nav-link active"
+                  aria-current="page"
+                  as={HashLink}
+                  to="/home#home"
+                >
+                  Home
+                </Nav.Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">
+                {/* <a class="nav-link" href="#about">
                   About
-                </a>
-                {/* <Nav.Link as={HashLink} to="/home#about">
-                About
-              </Nav.Link> */}
+                </a> */}
+                <Nav.Link class="nav-link" as={HashLink} to="/home#about">
+                  About
+                </Nav.Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#projects">
-                 Projects
-                </a>
-                {/* <Nav.Link as={HashLink} to="/home#projects">
-                Projects
-              </Nav.Link> */}
+                {/* <a class="nav-link" href="#projects">
+                  Projects
+                </a> */}
+                <Nav.Link class="nav-link" as={HashLink} to="/home#projects">
+                  Projects
+                </Nav.Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#expirence">
+                {/* <a class="nav-link" href="#expirence">
                   Expirence
-                </a>
-                {/* <Nav.Link as={HashLink} to="/home#projects">
-                Projects
-              </Nav.Link> */}
+                </a> */}
+                <Nav.Link class="nav-link" as={HashLink} to="/home#expirence">
+                  Expirence
+                </Nav.Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">
-                Contact
-                </a>
-                {/* <Nav.Link as={HashLink} to="/home#projects">
-                Projects
-              </Nav.Link> */}
+                {/* <a class="nav-link" href="#contact">
+                  Contact
+                </a> */}
+                <Nav.Link class="nav-link" as={HashLink} to="/home#contact">
+                  Contact
+                </Nav.Link>
+              </li>
+              <li class="nav-item">
+                {/* <a class="nav-link" href="#blogs">
+                  Blogs
+                </a> */}
+                {/* <Link class="nav-item nav-link" to='blogs'>
+                Blogs
+                </Link> */}
+                <Nav.Link class="nav-item nav-link" as={HashLink} to="blogs">
+                  Blogs
+                </Nav.Link>
               </li>
             </ul>
           </div>

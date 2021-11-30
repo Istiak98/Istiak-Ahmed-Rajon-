@@ -15,22 +15,19 @@ const Services = () => {
     <section class="wrapper mt-2">
       <div class="container-fostrap">
         <div>
-          {/* <img
-            src="https://4.bp.blogspot.com/-7OHSFmygfYQ/VtLSb1xe8kI/AAAAAAAABjI/FxaRp5xW2JQ/s320/logo.png"
-            class="fostrap-logo"
-          /> */}
+         
           <h1 class="heading">My Awesome Service</h1>
         </div>
         <div class="content">
           <div class="container">
             <div class="row" style={{"overflow-x": "hidden","overflow-y": "hidden"}}>
               <div class="col-xs-12 col-sm-4">
-                <div class="card" data-aos="fade-right">
-                  <a class="img-card" href="/">
+                <div class="card6" data-aos="fade-right">
+                  <a class="img-card6" href="/">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgNWa_4D7bVpESc6LYXCNEDO1vUHkc75xsIrphtOD5RxZWw3irb9Vdv2XMA1WZdYGDZo8&usqp=CAU" />
                   </a>
-                  <div class="card-content">
-                    <h4 class="card-title">
+                  <div class="card-content6">
+                    <h4 class="card-title6">
                       <a href="/">
                         {" "}
                         Website Development
@@ -41,23 +38,16 @@ const Services = () => {
                       wonderful effect fadein ...
                     </p>
                   </div>
-                  {/* <div class="card-read-more">
-                    <a
-                      href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"
-                      class="btn btn-link btn-block"
-                    >
-                      Read More
-                    </a>
-                  </div> */}
+                 
                 </div>
               </div>
               <div class="col-xs-12 col-sm-4">
-                <div class="card" data-aos="fade-left">
-                  <a class="img-card" href="/">
+                <div class="card6" data-aos="fade-left">
+                  <a class="img-card6" href="/">
                     <img src="https://3.bp.blogspot.com/-bAsTyYC8U80/VtLZRKN6OlI/AAAAAAAABjY/kAoljiMALkQ/s400/material%2Bnavbar.jpg" />
                   </a>
-                  <div class="card-content">
-                    <h4 class="card-title">
+                  <div class="card-content6">
+                    <h4 class="card-title6">
                       <a href="/">
                         {" "}
                         Material Design Responsive
@@ -67,23 +57,16 @@ const Services = () => {
                       Material Design is a visual programming language made by
                     </p>
                   </div>
-                  {/* <div class="card-read-more">
-                    <a
-                      href="https://codepen.io/wisnust10/full/ZWERZK/"
-                      class="btn btn-link btn-block"
-                    >
-                      Read More
-                    </a>
-                  </div> */}
+                 
                 </div>
               </div>
               <div class="col-xs-12 col-sm-4">
-                <div class="card" data-aos="fade-right">
-                  <a class="img-card" href="/">
+                <div class="card6" data-aos="fade-right">
+                  <a class="img-card6" href="/">
                     <img src="https://i.ytimg.com/vi/_2LLXnUdUIc/maxresdefault.jpg" />
                   </a>
-                  <div class="card-content">
-                    <h4 class="card-title">
+                  <div class="card-content6">
+                    <h4 class="card-title6">
                       <a href="/">Graphics Design</a>
                     </h4>
                     <p class="">
@@ -91,14 +74,7 @@ const Services = () => {
                       hover button is very beauti...
                     </p>
                   </div>
-                  {/* <div class="card-read-more">
-                    <a
-                      href="http://www.fostrap.com/2016/03/5-button-hover-animation-effects-css3.html"
-                      class="btn btn-link btn-block"
-                    >
-                      Read More
-                    </a>
-                  </div> */}
+                  
                 </div>
               </div>
             </div>
