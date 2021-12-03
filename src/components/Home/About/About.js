@@ -43,8 +43,8 @@ const About = () => {
               </p>
             </div>
             <hr className="" />
-            <h3 className="fw-bold text-start ">Personal Info</h3>
-            <div class="container">
+
+            {/* <div class="container">
               <div class="row g-2">
                 <div class="col-6">
                   <div class="p-3 ">Name: Istiak Ahmed</div>
@@ -55,9 +55,62 @@ const About = () => {
                   <div class="p-3 ">Nationality : Bangladeshi</div>
                 </div>
               </div>
+            </div> */}
+            <div class="card justify-content-center m-auto" style={{ width: "18rem" }}>
+              <div class="card-body">
+                <h3 className="fw-bold text-center ">Personal Info</h3>
+                {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
+                <p class="card-text">
+                  Name:{" "}
+                  <span className="rajon fw-bold">Istiak Ahmed Rajon</span>
+                </p>
+                <p class="card-text">
+                  Email:{" "}
+                  <span className="rajon fw-bold">
+                    istiakahmed104127@gmail.com
+                  </span>
+                </p>
+                <p class="card-text">
+                  Mobile:{" "}
+                  <span className="rajon fw-bold">(+880)1754956909</span>
+                </p>
+                <a
+                  className="btna"
+                  href="https://drive.google.com/drive/folders/1G95xCrH0KwoAXUt3HVtpyZkTJJV02Vjv" 
+                  download>
+                  <button className="btn btn-outline-dark  mt-4 mb-3">
+                    Download Resume
+                  </button>{" "}
+                </a>{" "}
+                <br />
+                <a
+                  className="btna"
+                  href="https://www.facebook.com/istiak.ahmed.18041"
+                >
+                  {" "}
+                  <button class="btn2 px-3 mb-2">
+                    <i className="fab fa-facebook-f">Facebook</i>
+                  </button>
+                </a> <br/>
+                <a
+                  className="btna"
+                  href="https://www.linkedin.com/in/istiak-ahmed-857b92226/"
+                >
+                  {" "}
+                  <button class="btn2 px-3">
+                    <i class=" fab fa-linkedin-in"> LinkedIn</i>
+                  </button>
+                </a>
+                <a className="btna" href="https://github.com/Istiak98">
+                  {" "}
+                  <button class="btn2 mt-2">
+                    <i class=" fab fa-github"> Github</i>
+                  </button>
+                </a>
+              </div>
             </div>
-            <div className="justify-content-start">
-              <a
+            <div className="">
+              {/* <a
                 className="btna"
                 href="https://drive.google.com/drive/folders/1G95xCrH0KwoAXUt3HVtpyZkTJJV02Vjv"
               >
@@ -89,7 +142,7 @@ const About = () => {
                 <button class="btn2">
                   <i class=" fab fa-github"> Github</i>
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

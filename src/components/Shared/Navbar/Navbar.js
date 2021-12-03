@@ -46,7 +46,6 @@ const Navbar = () => {
                   About
                 </Nav.Link>
               </li>
-
               <li class="nav-item">
                 {/* <a class="nav-link" href="#projects">
                   Projects
@@ -81,6 +80,23 @@ const Navbar = () => {
                 <Nav.Link class="nav-item nav-link" as={HashLink} to="blogs">
                   Blogs
                 </Nav.Link>
+              </li>
+              <li class="nav-item">
+                {/* <a class="nav-link" href="#blogs">
+                  Blogs
+                </a> */}
+                {/* <Link class="nav-item nav-link" to='blogs'>
+                Blogs
+                </Link> */}
+                <a
+                  class="nav-item nav-link"
+                
+                  href="https://drive.google.com/drive/folders/1G95xCrH0KwoAXUt3HVtpyZkTJJV02Vjv"
+                >
+                  <button className="btn btn-outline-light">
+                    Download Resume
+                  </button>{" "}
+                </a>
               </li>
             </ul>
           </div>

@@ -34,8 +34,7 @@ const Services = () => {
                       </a>
                     </h4>
                     <p class="">
-                      Tutorial to make a carousel bootstrap by adding more
-                      wonderful effect fadein ...
+                      Make Different Websites using React.js,Bootstrap,Firebaase,MongoDB etc...
                     </p>
                   </div>
                  
@@ -54,7 +53,7 @@ const Services = () => {
                       </a>
                     </h4>
                     <p class="">
-                      Material Design is a visual programming language made by
+                      Material Design is a visual programming language made by Material UI ,Tailwind....
                     </p>
                   </div>
                  
@@ -70,8 +69,7 @@ const Services = () => {
                       <a href="/">Graphics Design</a>
                     </h4>
                     <p class="">
-                      tutorials button hover animation, although very much a
-                      hover button is very beauti...
+                      Different Graphics elements using Illustrator , Photoshop etc.....
                     </p>
                   </div>
                   

@@ -1,5 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import Swal from "sweetalert2/dist/sweetalert2.js";
 const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
@@ -20,10 +21,17 @@ const Contact = () => {
         }
       );
     e.target.reset();
+
+    Swal.fire({
+      icon: "success",
+      title: "Message sent successfully",
+    });
   }
   return (
     <div class="container overflow-hidden">
-      <h1><span className='rajon'>CONTACT</span> ME</h1>
+      <h1>
+        <span className="rajon">CONTACT</span> ME
+      </h1>
 
       <div class="row gx-5" id="contact">
         <div class="col ">
@@ -111,7 +119,7 @@ const Contact = () => {
                             name="message"
                             class="form-control"
                             placeholder="Subject *"
-                            rows="4"
+                            rows="2"
                             required
                             data-error="Please,leave us a message."
                           ></textarea>

@@ -41,7 +41,7 @@ const ProjectInfo = () => {
           </div>
           <div class="col">
             <div
-              class="card text-dark  mb-3 mt-5"
+              class="card text-dark  mb-5 mt-5 m-auto"
               style={{ "max-width": "18rem" }}
             >
               <div class="card-body">
